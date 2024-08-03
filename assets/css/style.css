@@ -1,0 +1,29 @@
+@import url(/assets/css/root.css);
+.fs-64 {
+  font-size: var(--fs-64px);
+}
+.fs-12 {
+  font-size: var(--fs-12px);
+}
+.fs-20 {
+  font-size: var(--fs-20px);
+}
+.fs-56 {
+  font-size: var(--fs-56px);
+}
+.fs-24 {
+  font-size: var(--fs-24px);
+}
+.fs-18 {
+  font-size: var(--fs-18px);
+}
+
+.fw-400 {
+  font-weight: var(--fw-400);
+}
+.fw-700 {
+  font-weight: var(--fw-700);
+}
+.fw-600 {
+  font-weight: var(--fw-600);
+}
