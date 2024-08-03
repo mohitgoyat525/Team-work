@@ -54,7 +54,7 @@
   background-size: cover;
 }
 .nav-box{
-width: 1140px;
+width: 100%;
 height: 84px;
 padding: 16px;
 border-radius: 24px ;
@@ -79,6 +79,44 @@ border: none;
 /* .ms-118{
     margin-left: 118px;
 } */
+.hero-section-heading{
+     max-width: 830px;
+height: 243px; 
+font-size: 64px;
+}
+.hero-section-btn{
+width: 173px;
+height:63px;
+padding: 20px 32px 20px 32px;
+gap: 10px;
+border-radius: 56px;
+opacity: 0px;
+background-color: var(--light-red);
+border: none;
+}
+.gg-box{
+    max-width: 229.17px;
+height: 100%;
+background-color: var(--white);
+border-radius: 16px;
+border: 0.83px;
+transition: all 300ms linear;
+
+}
+.gg-box:hover{
+    border: 0.83px solid #14141426;
+}
+.google{
+    width: 40px;
+height: 40px;
+
+
+}
+.tail{
+    width: 81px;
+height: 80px;
+
+}
 /* ---------responsive ----------*/
 @media (max-width: 992px) {
   .nav-menubar {
@@ -106,5 +144,8 @@ border: none;
     height: 5px;
     transition: all 300ms linear;
     background-color: black;
+  }
+  .nav-box{
+    max-width: 992px !important;
   }
 }
