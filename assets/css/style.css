@@ -1,4 +1,8 @@
 @import url(/assets/css/root.css);
+*{
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
 .fs-64 {
   font-size: var(--fs-64px);
 }
@@ -26,4 +30,81 @@
 }
 .fw-600 {
   font-weight: var(--fw-600);
+}
+
+.font-black {
+  color: var(--black);
+}
+.font-white {
+  color: var(--white);
+}
+.light-black {
+  color: var(--light-black);
+}
+.light-red {
+  color: var(--light-red);
+}
+.dark-blue {
+  color: var(--dark-blue);
+}
+
+.hero-section-bg-img {
+  background-image: url(/assets/images/png/hero-section-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-box{
+width: 1140px;
+height: 84px;
+padding: 16px;
+border-radius: 24px ;
+background: var(--white);
+}
+.nav-btn{
+width:186px;
+height: 52px;
+gap: 10px;
+border-radius: 56px;
+opacity: 0px;
+background-color: var(--light-red);
+border: none;
+}.rotated-1 {
+  transform-origin: left;
+  transform: rotate(35deg);
+}
+.rotated-2 {
+  transform-origin: left;
+  transform: rotate(-35deg);
+}
+/* .ms-118{
+    margin-left: 118px;
+} */
+/* ---------responsive ----------*/
+@media (max-width: 992px) {
+  .nav-menubar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    transition: all 300ms linear;
+    background: var(--light-red);
+    height: 100vh;
+  }
+  .show-nav {
+    right: 0 !important;
+  }
+  .line1 {
+    width: 35px;
+    display: flex;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 5px;
+    transition: all 300ms linear;
+    background-color: black;
+  }
 }
