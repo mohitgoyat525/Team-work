@@ -1,0 +1,11 @@
+@import url(/assets/css/root.css);
+
+.image-card {
+    position: relative;
+}
+
+.black-sofa-room {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
