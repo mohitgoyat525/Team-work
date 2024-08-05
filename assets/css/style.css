@@ -65,7 +65,7 @@ transition: all 300ms linear;
     background-size: cover;
 }
 .nav-box{
-width: 1140px;
+/* width: 1140px; */
 height: 84px;
 padding: 16px;
 border-radius: 24px;
@@ -147,7 +147,7 @@ box-shadow: 0px 0px 12px 3px #B6B6B640;
   background-color: #FFEBEB;
 }
 .first-facility-box{
-  width: 452px;
+  max-width: 452px;
 height: 96px;
 gap: 20px;
 border: 1px solid black;
@@ -164,12 +164,14 @@ opacity: 0px;
  background: #B400011A;
 ;
 }
+
+    
 /* --------------------------Responsive--------------- */
 @media (max-width: 992px) {
   .nav-menubar {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100% !important ;
     min-height: 100vh;
     position: fixed;
     justify-content: center;
@@ -179,6 +181,7 @@ opacity: 0px;
     transition: all 300ms linear;
     background: var(--white);
     height: 100%;
+
   }
   .show-nav {
     right: 0 !important;
@@ -196,6 +199,11 @@ opacity: 0px;
  .p-100{
     padding: 20px;
   }
+  .sm-hidden{
+    display: none;
+  }
+
 }
-/*  */
+
+
 

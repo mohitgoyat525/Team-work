@@ -1,201 +1,327 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ceramic-solution</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/root.css">
-    <link rel="shortcut icon" href="/assets/images/png/logo.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/root.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/png/logo.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- -----------hero-section--------------- -->
-    <section class="hero-section bg-herosection-img d-flex align-items-center justify-content-center flex-column">
-     
-    <header class="nav-box mt-4">
+    <section
+      class="hero-section bg-herosection-img d-flex align-items-center justify-content-center flex-column"
+    >
+      <header
+        class="mt-4 d-flex align-items-center justify-content-center w-100"
+      >
         <div class="container">
-           
-                <nav class="d-flex align-items-center justify-content-between">
-                    <img src="./assets/images/png/logo.png" alt="logo" class="logo">
-                    <ul id="navlinks" 
-                    class="d-flex align-items-center gap-5 nav-menubar h-100 ps-0">
-                    <li><a href="/" class="fs-16 fw-400 font-black">Home</a></li>
-                    <li><a href="/" class="fs-16 fw-400 font-black">About</a></li>
-                    <li><a href="/" class="fs-16 fw-400 font-black">Services</a></li>
-                    <li><a href="/" class="fs-16 fw-400 font-black">Portfolio</a></li>
-                    <li><a href="/" class="fs-16 fw-400 font-black">Contact us</a></li>
-                    <li><a href="/" class="fs-16 fw-400 font-black">Request a Qoute</a></li>
-                      <li class="btn-parent ">
-                    <button class="nav-buttn font-white fs-16 fw-400 "><img src="./assets/images/png/nav-call.png" alt="call"> (865) 621-1717</button>
-                      </li>
-                </ul>
+          <nav
+            class="d-flex align-items-center justify-content-between nav-box w-100"
+          >
+            <img src="./assets/images/png/logo.png" alt="logo" class="logo" />
+             <div
+              onclick="navmenu()"
+              class="d-lg-none w-35 h-35 d-flex flex-column z-2"
+            >
+              <span id="rotated-1" class="line1"></span>
+              <span id="transparent" class="line1"></span>
+              <span id="rotated-2" class="line1"></span>
+            </div>
+            <ul
+              id="navlinks"
+              class="d-flex align-items-center gap-5 nav-menubar h-100 ps-0 mb-0"
+            >
+              <li><a href="/" class="fs-16 fw-400 font-black">Home</a></li>
+              <li><a href="/" class="fs-16 fw-400 font-black">About</a></li>
+              <li><a href="/" class="fs-16 fw-400 font-black">Services</a></li>
+              <li><a href="/" class="fs-16 fw-400 font-black">Portfolio</a></li>
+              <li>
+                <a href="/" class="fs-16 fw-400 font-black">Contact us</a>
+              </li>
+              <li>
+                <a href="/" class="fs-16 fw-400 font-black">Request a Qoute</a>
+              </li>
+              <li class="max-sm-block d-lg-none">
+                  <button class="nav-buttn font-white fs-16 fw-400">
+                  <img src="./assets/images/png/nav-call.png" alt="call" />
+                  (865) 621-1717
+                </button>
               
-                <div onclick="navmenu()" class="d-lg-none w-35 h-35  d-flex flex-column z-2">
-            <span id="rotated-1" class="line1"></span>
-            <span id="transparent" class="line1"></span>
-            <span id="rotated-2" class="line1 "></span>
-          </div>
-            </nav>
+              </li>
+            
+            </ul>
+             <div class="btn-parent sm-hidden">
+                <button class="nav-buttn font-white fs-16 fw-400">
+                  <img src="./assets/images/png/nav-call.png" alt="call" />
+                  (865) 621-1717
+                </button>
+              </div>
+           
+          </nav>
         </div>
-        
-    </header>
-    <div class="container">
-      <div class="row">
-        <div class="herosection-box ">
-          <h1 class="fs-64 fw-600 font-white hero-section-heading pt-5">Transform Your Space with Precision and Quality:
-Get a Free Quote Today!</h1>
-<p class="hero-sectoin-paragraph fs-16 font-white fw-400 pt-3">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade nyheter eurosamma sol: teroktig,</p>
-<button class="hero-section-button font-white fw-700 fs-18 mt-4">Get a Quote</button>
-        </div>
-        <div class="hero-section-rating-box d-flex align-items-center gap-5 mb-3 mt-5 flex-wrap">
-          <div class="google-box p-2 d-flex align-items-center justify-content-center">
-            <img src="/assets/images/png/google-logo.png" alt="google" class="google">
-            <div class="flex-column ps-2 pe-2 pt-2 pb-2">
-              <p class="fs-12 fw-400 font-light-black mb-0">Google Review</p>
-              <p class="fs-20 fw-400 font-light-black mb-0">4.6<b><img src="/assets/images/svg/rating.svg" alt="rate"></b></p>
-              <p class="fs-12 fw-400 font-light-black mb-0">Based on 145 reviews</p>
-
-            </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="herosection-box">
+            <h1 class="fs-64   fw-600 font-white hero-section-heading pt-5">
+              Transform Your Space with Precision and Quality: Get a Free Quote
+              Today!
+            </h1>
+            <p class="hero-sectoin-paragraph fs-16 font-white fw-400 pt-3">
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+              Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade
+              nyheter eurosamma sol: teroktig,
+            </p>
+            <button class="hero-section-button font-white fw-700 fs-18 mt-4">
+              Get a Quote
+            </button>
           </div>
-          <div class="google-box p-2 d-flex align-items-center justify-content-center">
-            <img src="/assets/images/svg/star.svg" alt="star" class="google">
-            <div class="flex-column ps-2 pe-2 pt-2 pb-2">
-              <p class="fs-12 fw-400 font-light-black mb-0">Google Review</p>
-              <p class="fs-20 fw-400 font-light-black mb-0">4.6<b><img src="/assets/images/svg/rating.svg" alt="rate"></b></p>
-              <p class="fs-12 fw-400 font-light-black mb-0">Based on 145 reviews</p>
-
+          <div
+            class="hero-section-rating-box d-flex align-items-center gap-5 mb-3 mt-5 flex-wrap"
+          >
+            <div
+              class="google-box p-2 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="/assets/images/png/google-logo.png"
+                alt="google"
+                class="google"
+              />
+              <div class="flex-column ps-2 pe-2 pt-2 pb-2">
+                <p class="fs-12 fw-400 font-light-black mb-0">Google Review</p>
+                <p class="fs-20 fw-400 font-light-black mb-0">
+                  4.6<b
+                    ><img src="/assets/images/svg/rating.svg" alt="rate"
+                  /></b>
+                </p>
+                <p class="fs-12 fw-400 font-light-black mb-0">
+                  Based on 145 reviews
+                </p>
+              </div>
             </div>
+            <div
+              class="google-box p-2 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="/assets/images/svg/star.svg"
+                alt="star"
+                class="google"
+              />
+              <div class="flex-column ps-2 pe-2 pt-2 pb-2">
+                <p class="fs-12 fw-400 font-light-black mb-0">Google Review</p>
+                <p class="fs-20 fw-400 font-light-black mb-0">
+                  4.6<b
+                    ><img src="/assets/images/svg/rating.svg" alt="rate"
+                  /></b>
+                </p>
+                <p class="fs-12 fw-400 font-light-black mb-0">
+                  Based on 145 reviews
+                </p>
+              </div>
+            </div>
+            <img
+              src="/assets/images/png/tile-logo.png"
+              alt="tail"
+              class="tail-logo"
+            />
+            <img
+              src="/assets/images/png/qulity-tag.png"
+              alt="tail"
+              class="tail-logo"
+            />
           </div>
-          <img src="/assets/images/png/tile-logo.png" alt="tail" class="tail-logo">
-           <img src="/assets/images/png/qulity-tag.png" alt="tail" class="tail-logo">
         </div>
       </div>
-    </div>
-   
-   </section>
-   <!-- --------------images-section------------- -->
-     <section class="img-sec-two padding-img-section">
-    <div class="container">
-      <h2 class="text-center fs-56 fw-600">What we do </h2>
-      <div class="row">
-        <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
-           <div class="image-card">
-            <img src="/assets/images/png/kitchen-img.png" alt="kitchen" class="w-100">
-            <div class="card-content">
-              <p class="fs-24 fw-600 pt-3">Kitchen Backsplash</p>
-              <p class="fs-16 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. </p>
-            </div>
-            <div class="learn">
-              <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
-           <div class="image-card">
-            <img src="/assets/images/png/shower-img.png" alt="shower-img" class="w-100">
-            <div class="card-content">
-              <p class="fs-24 fw-600 pt-3">Custom Showers</p>
-              <p class="fs-16 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. </p>
-            </div>
-            <div class="learn">
-              <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
-           <div class="image-card">
-            <img src="/assets/images/png/hall-img.png" alt="hall" class="w-100">
-            <div class="card-content">
-              <p class="fs-24 fw-600 pt-3">Custom Flooring</p>
-              <p class="fs-16 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. </p>
-            </div>
-            <div class="learn">
-              <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
-            </div>
-          </div>
-        </div>
+    </section>
+    <!-- --------------images-section------------- -->
+    <section class="img-sec-two padding-img-section">
+      <div class="container">
+        <h2 class="text-center fs-56 fw-600">What we do</h2>
+        <div class="row">
           <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
-           <div class="image-card">
-            <img src="/assets/images/png/large-hall.png" alt="big-hall-img" class="w-100">
-            <div class="card-content">
-              <p class="fs-24 fw-600 pt-3">Large Format Tiling</p>
-              <p class="fs-16 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. </p>
-            </div>
-            <div class="learn">
-              <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
-           <div class="image-card">
-            <img src="/assets/images/png/guest-room.png" alt="guest-room" class="w-100">
-            <div class="card-content">
-              <p class="fs-24 fw-600 pt-3">Wall Tiling</p>
-              <p class="fs-16 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. </p>
-            </div>
-            <div class="learn">
-              <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+            <div class="image-card">
+              <img
+                src="/assets/images/png/kitchen-img.png"
+                alt="kitchen"
+                class="w-100"
+              />
+              <div class="card-content">
+                <p class="fs-24 fw-600 pt-3">Kitchen Backsplash</p>
+                <p class="fs-16 fw-400">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </p>
+              </div>
+              <div class="learn">
+                <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
-           <div class="image-card">
-            <img src="/assets/images/png/style-table-img.png" alt="style-table-img" class="w-100">
-            <div class="card-content">
-              <p class="fs-24 fw-600 pt-3">ADA Compliant Showers</p>
-              <p class="fs-16 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. </p>
-            </div>
-            <div class="learn">
-              <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
-           <div class="image-card">
-            <img src="/assets/images/png/guest-room.png" alt="kitchen" class="w-100">
-            <div class="card-content">
-              <p class="fs-24 fw-600 pt-3">Fireplace Tiling</p>
-              <p class="fs-16 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. </p>
-            </div>
-            <div class="learn">
-              <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
+            <div class="image-card">
+              <img
+                src="/assets/images/png/shower-img.png"
+                alt="shower-img"
+                class="w-100"
+              />
+              <div class="card-content">
+                <p class="fs-24 fw-600 pt-3">Custom Showers</p>
+                <p class="fs-16 fw-400">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </p>
+              </div>
+              <div class="learn">
+                <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+              </div>
             </div>
           </div>
-        </div>
 
+          <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
+            <div class="image-card">
+              <img
+                src="/assets/images/png/hall-img.png"
+                alt="hall"
+                class="w-100"
+              />
+              <div class="card-content">
+                <p class="fs-24 fw-600 pt-3">Custom Flooring</p>
+                <p class="fs-16 fw-400">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </p>
+              </div>
+              <div class="learn">
+                <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
+            <div class="image-card">
+              <img
+                src="/assets/images/png/large-hall.png"
+                alt="big-hall-img"
+                class="w-100"
+              />
+              <div class="card-content">
+                <p class="fs-24 fw-600 pt-3">Large Format Tiling</p>
+                <p class="fs-16 fw-400">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </p>
+              </div>
+              <div class="learn">
+                <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
+            <div class="image-card">
+              <img
+                src="/assets/images/png/guest-room.png"
+                alt="guest-room"
+                class="w-100"
+              />
+              <div class="card-content">
+                <p class="fs-24 fw-600 pt-3">Wall Tiling</p>
+                <p class="fs-16 fw-400">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </p>
+              </div>
+              <div class="learn">
+                <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+              </div>
+            </div>
+          </div>
 
-      </div>
-    </div>
-  </section>
-  <!-- ---------------Why-chosse-section---------- -->
-  <section class="chhose-us-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="third-sec-box">
-            <h2 class="fs-56 fw-600">Why Choose us?</h2>
-            <p class="fs-18 fw-400">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
-            <div class="facilities">
-              <div class="first-facility-box  position-relative">
-                <div class="svg-box d-flex align-items-center justify-content-center position-absolute"><img src="/assets/images/png/single-star.png" alt="satr"></div>
-                <div class="">
-                <p class="fs-20 fw-600 font-light-black">High Quality Materials</p>
-                <p class="fs-16 fw-400">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird.</p>
-                  </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
+            <div class="image-card">
+              <img
+                src="/assets/images/png/style-table-img.png"
+                alt="style-table-img"
+                class="w-100"
+              />
+              <div class="card-content">
+                <p class="fs-24 fw-600 pt-3">ADA Compliant Showers</p>
+                <p class="fs-16 fw-400">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </p>
+              </div>
+              <div class="learn">
+                <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-12 mt-4">
+            <div class="image-card">
+              <img
+                src="/assets/images/png/guest-room.png"
+                alt="kitchen"
+                class="w-100"
+              />
+              <div class="card-content">
+                <p class="fs-24 fw-600 pt-3">Fireplace Tiling</p>
+                <p class="fs-16 fw-400">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </p>
+              </div>
+              <div class="learn">
+                <p class="learn-more fs-16 fw-600 font-light-red">Learn more</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="" > </section>
+    </section>
+    <!-- ---------------Why-chosse-section---------- -->
+    <section class="chhose-us-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="third-sec-box">
+              <h2 class="fs-56 fw-600">Why Choose us?</h2>
+              <p class="fs-18 fw-400">
+                Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                Pregigt primasofi dede facebooka: förutom tivaligt.
+              </p>
+              <div class="facilities">
+                <div class="first-facility-box position-relative">
+                  <div
+                    class="svg-box d-flex align-items-center justify-content-center position-absolute"
+                  >
+                    <img src="/assets/images/png/single-star.png" alt="satr" />
+                  </div>
+                  <div class="">
+                    <p class="fs-20 fw-600 font-light-black">
+                      High Quality Materials
+                    </p>
+                    <p class="fs-16 fw-400">
+                      Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
+                      abgelenkt wird.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=""></section>
     <script src="/assets/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
