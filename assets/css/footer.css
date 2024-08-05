@@ -1,5 +1,69 @@
 @import url(/assets/css/root.css);
 
+* {
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+.fs-12 {
+    font-size: var(--fs-12);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-56 {
+    font-size: var(--fs-56);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.font-black {
+    color: var(--black);
+}
+
+.font-white {
+    color: var(--white);
+}
+
+.font-light-black {
+    color: var(--light-black);
+}
+
+.font-light-red {
+    color: var(--light-red);
+}
+
+.dark-blue {
+    color: var(--dark-blue);
+}
+
+
+
+
 
 .parent-card{
     border-radius:24px;
@@ -14,12 +78,26 @@
 .mb-24{
     margin-bottom: 24px;
 }
+.heading{
+    max-width: 552px;
+}
 .para{
-    max-width: 589px;
-        max-height: 142px;
-        gap: 0px;
-        opacity: 0px;
+    max-width: 570px;
+      
+    
+}
+.para-1{
+    margin: 12px;
 }
 .bg-color{
     background-color: #F7F7F7;
 }
+.mt-24{
+    margin-top: 24px;
+}
+/* .ml-150{
+    margin-left: 150px;
+} */
+ .gap{
+    gap: 24px;
+ }
