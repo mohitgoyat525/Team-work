@@ -81,11 +81,24 @@ h4 {
 .btn-1 {
     padding: 20px 32px 20px 32px;
     border-radius: 56px;
-    background: #FF0000;
-    color: white;
+    background: #FFFFFF;
     font-size: 18px;
     font-weight: 700;
     line-height: 22.68px;
+    border: 1px solid #FF0000;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: #FF0000;
+}
+
+.btn-1:hover{
+    background: #FF0000;
+}
+
+.btn-1:hover a{
+    color: #FFFFFF;
 }
 
 .btn-2 {
@@ -98,5 +111,17 @@ h4 {
     font-size: 18px;
     font-weight: 700;
     line-height: 22.68px;
-    text-align: left;
+}
+
+.btn-2 a {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+.btn-2:hover {
+    background: #FF0000;
+}
+
+.btn-2:hover a {
+    color: #FFFFFF;
 }
