@@ -3,9 +3,9 @@
 /* ==============================Main-section====How it Works========================= */
 
 /* ==============Left-Section========== */
-.container{
+.container {
     width: 1140px !important;
-    
+
 }
 
 .image-container {
@@ -90,16 +90,16 @@ h4 {
     border: 1px solid #FF0000;
 }
 
-.btn-1 a{
+.btn-1 a {
     text-decoration: none;
     color: #FF0000;
 }
 
-.btn-1:hover{
+.btn-1:hover {
     background: #FF0000;
 }
 
-.btn-1:hover a{
+.btn-1:hover a {
     color: #FFFFFF;
 }
 
@@ -137,7 +137,7 @@ body {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.mt-140{
+.mt-140 {
     margin-top: 140px;
 }
 
@@ -224,49 +224,54 @@ body {
         font-size: 35px;
     }
 }
-.hero-section-heading{
+
+.hero-section-heading {
     color: #FFFFFF;
 }
 
-.hero-section-para{
+.hero-section-para {
     color: #FFFFFF;
 }
+
 /* ===============Main-section==========OUR BLOG================================ */
 
-.mt-140{
+.mt-140 {
     margin-top: 140px;
 }
 
-.kitchen-card{
+.kitchen-card {
     width: 364px;
-        height: 474px;
-        padding: 24px;
-        border-radius: 24px;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 12px 3px #B6B6B640;
-        padding: 24px;
+    height: 474px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px 3px #B6B6B640;
+    padding: 24px;
 }
 
-.kitchen-card-para{
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 38.4px;
-        margin-top: 24px;
+.kitchen-card-para {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    margin-top: 24px;
 }
 
-.learn-more a{
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 25.6px;
-        color: #000000;
-        text-decoration: none;
+.learn-more a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: #000000;
+    text-decoration: none;
 }
 
 .learn-more :hover {
-    color: #FF0000;
+    color: blue;
 }
 
-.mt-56{
+ svg:hover path {
+    fill: blue;
+}
+
+.mt-56 {
     margin-top: 56px;
 }
-
