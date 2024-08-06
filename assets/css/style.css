@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(/assets/css/root.css);
 * {
   text-decoration: none !important;
   list-style-type: none !important;
   /* outline: 2px solid red; */
+}
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 .container{
   max-width: 1140px !important;
@@ -252,7 +256,7 @@ opacity: 0px;
 border: 0.83px solid #14141426
 }
 .slider-box-1{
- 
+
 padding: 24px;
 gap: 24px;
 border-radius: 24px;
@@ -264,7 +268,6 @@ opacity: 0px;
 }
 .pb-100{
   padding-bottom: 100px;
-
 }
 .pt-140{
   padding-top: 140px;
@@ -310,5 +313,13 @@ opacity: 0px;
   .big-hall-img{
     width: 100%;
   }
-  
+  .pt-45{
+    padding-top: 45px;
+  }
+  .pb-45{
+    padding-bottom: 45px;
+  }
+  .pt-50{
+    padding-top: 50px;
+  }
 }
