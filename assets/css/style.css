@@ -162,7 +162,7 @@ body{
   gap: 20px;
 }
 .svg-box {
-  width: 62px;
+  min-width: 62px;
   height: 62px;
   top: 0;
   left: 0;
@@ -249,7 +249,6 @@ padding: 24px;
 gap: 24px !important;
 border-radius: 24px;
 opacity: 0px;
-
 }
 
 .pb-100{
