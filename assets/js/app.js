@@ -11,7 +11,7 @@ const navmenu = () => {
 $('.slick-slider-box').slick({
   dots: false,
   infinite: true,
-  speed: 400,
+  speed: 2000,
   slidesToShow: 3.7,
   slidesToScroll: 1,
   autoplay: true,
