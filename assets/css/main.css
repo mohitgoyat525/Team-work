@@ -7,7 +7,9 @@
     width: 1140px !important;
 
 }
-
+*{
+    outline:2px solid red;
+}
 .image-container {
     position: relative;
     width: 485px;
@@ -57,8 +59,7 @@ h2 {
 }
 
 .mini-card {
-    width: 592px;
-    height: 128px;
+    max-width: 592px;
     padding: 16px;
     gap: 20px;
     border-radius: 24px;
@@ -89,6 +90,7 @@ h4 {
     line-height: 22.68px;
     border: 1px solid #FF0000;
 }
+
 
 .btn-1 a {
     text-decoration: none;
@@ -127,6 +129,15 @@ h4 {
 .btn-2:hover a {
     color: #FFFFFF;
 }
+
+
+@media (max-width: 576px) {
+ .image-container{
+    justify-content: center;
+ }   
+}
+
+
 
 /* ===============Main-section===============Interested?========================= */
 
