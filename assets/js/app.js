@@ -5,9 +5,6 @@ const navmenu = () => {
   document.getElementById("rotated-2").classList.toggle("rotated-2");
   document.getElementById("transparent").classList.toggle("bg-transparent");
 };
-
-
-
 $('.slick-slider-box').slick({
   dots: false,
   infinite: true,
