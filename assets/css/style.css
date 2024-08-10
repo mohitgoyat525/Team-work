@@ -486,15 +486,7 @@ opacity: 0px;
     bottom: -1%;
     left: 1%;
   }
-}
-
-
-
-@media (max-width: 992px) {
-  
-}
-@media (max-width:576px) {
-  .big-hall-img{
+    .big-hall-img{
     width: 100%;
   }
   .pt-45{
@@ -507,3 +499,7 @@ opacity: 0px;
     padding-top: 50px;
   }
 }
+
+
+
+
